@@ -7,11 +7,14 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text('Prueba instalación via git hub'),
+      ),
       body: ListView(
 
         children: [
           ListTile(
-            title: Text('Cubit'),
+            title: Text('Cubits'),
             subtitle: Text('Gestor de estado simple'),
             trailing: Icon(Icons.arrow_forward_ios_rounded),
             onTap: () => context.push('/cubits'),
