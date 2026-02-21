@@ -28,7 +28,7 @@ class BlocCounterView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Bloc Counter'),
+        title: Text('Bloc Counter 0'),
         actions: [
           IconButton( 
             onPressed: () => {},  
